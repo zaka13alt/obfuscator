@@ -9,7 +9,7 @@ def generate_valid_js_identifier():
 
 
 def identical_aggressive_obfuscate(root_dir="."):
-    # add .html here also fi some of your proxy workers and scripts are inlined into the html also
+    # add .html here also if some of your proxy workers and scripts are inlined into the html also
     allowed_extensions = {".js", ".mjs", ".cjs"}
 
     
