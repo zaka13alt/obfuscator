@@ -12,11 +12,10 @@ unified_token_registry = {
         "mercuryworkshop": generate_valid_js_identifier(),
     }
   ```
-
+to
 
 
    
-    ```
 
     unified_token_registry = {
         "ultraviolet": generate_valid_js_identifier(),
@@ -26,7 +25,7 @@ unified_token_registry = {
         "uv": generate_valid_js_identifier(),
         "titaniumnetwork": generate_valid_js_identifier(),
     }
-    ```
+  
 
 
   and change the target_folders = ["scram", "public", "baremux"]
