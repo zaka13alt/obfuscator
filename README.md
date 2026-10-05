@@ -39,7 +39,7 @@ unified_token_registry = {
         "scramjetcontroller":  generate_valid_js_identifier(),
         "scram": generate_valid_js_identifier(),
         "internal": generate_valid_js_identifier(),
-        "bare": generate_valid_js_identifier(),
+        "": generate_valid_js_identifier(),
     }
   ```
 change the target_folders = ["scram", "public", "baremux"]
