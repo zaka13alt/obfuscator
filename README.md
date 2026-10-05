@@ -37,7 +37,7 @@ to
 unified_token_registry = {
         "scramjet": generate_valid_js_identifier(),
         "scramjetcontroller":  generate_valid_js_identifier(),
-        "scram": generate_valid_js_identifier(),
+        "inject": generate_valid_js_identifier(),
         "internal": generate_valid_js_identifier(),
         "": generate_valid_js_identifier(),
     }
