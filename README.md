@@ -10,6 +10,7 @@ unified_token_registry = {
         "baremux":  generate_valid_js_identifier(),
         "bare-mux": generate_valid_js_identifier(),
         "mercuryworkshop": generate_valid_js_identifier(),
+        "bare": generate_valid_js_identifier(),
     }
   ```
 to
@@ -20,6 +21,7 @@ to
     unified_token_registry = {
         "ultraviolet": generate_valid_js_identifier(),
         "baremux":  generate_valid_js_identifier(),
+        "bare":  generate_valid_js_identifier(),
         "inject": generate_valid_js_identifier(),
         "rewrite": generate_valid_js_identifier(),
         "uv": generate_valid_js_identifier(),
