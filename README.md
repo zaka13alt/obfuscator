@@ -30,7 +30,19 @@ to
   
 
 
-  and change the target_folders = ["scram", "public", "baremux"]
+  and for scramjet v2 
+  
+  
+ ```
+unified_token_registry = {
+        "scramjet": generate_valid_js_identifier(),
+        "scramjetcontroller":  generate_valid_js_identifier(),
+        "scram": generate_valid_js_identifier(),
+        "internal": generate_valid_js_identifier(),
+        "bare": generate_valid_js_identifier(),
+    }
+  ```
+change the target_folders = ["scram", "public", "baremux"]
     to whereever your proxy assets are at
 
 
