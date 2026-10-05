@@ -24,6 +24,7 @@ to
         "ultraviolet": generate_valid_js_identifier(),
         "baremux":  generate_valid_js_identifier(),
         "bare-mux":  generate_valid_js_identifier(),
+        "bare":  generate_valid_js_identifier(),
         "inject": generate_valid_js_identifier(),
         "rewrite": generate_valid_js_identifier(),
         "uv": generate_valid_js_identifier(),
