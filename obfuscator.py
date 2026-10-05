@@ -19,6 +19,7 @@ def identical_aggressive_obfuscate(root_dir="."):
         "bare-mux": generate_valid_js_identifier(),
         "mercuryworkshop": generate_valid_js_identifier(),
         "scram": generate_valid_js_identifier(),
+        "bare": generate_valid_js_identifier(),
     }
 
     
